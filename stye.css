@@ -1,0 +1,23 @@
+
+h3{
+    font-size:50px;
+    background-color:chartreuse;
+    width:300px;
+}
+
+@keyframes canvas{
+from{box-shadow: 1px 1px 20px blue}
+to{box-shadow: 1px 1px 20px yellow}
+}
+
+canvas{
+animation-name:canvas;
+animation-duration:4s;
+animation-iteration-count:infinite;
+margin-top: 300px;
+}
+
+button{
+background-color:aqua;
+}
+
